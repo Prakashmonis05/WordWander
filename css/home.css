@@ -26,8 +26,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 15px;
     padding-left: 15px;
-
-
 }
 
 .navdiv {
@@ -36,14 +34,11 @@ body {
     justify-content: space-between;
 }
 
-
-
 .logo {
     font-size: 35px;
     font-weight: 600;
     color: white;
 }
-
 
 li {
     list-style: none;
@@ -55,6 +50,14 @@ li a {
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
+    text-decoration: none; /* Remove text decoration */
+}
+
+/* Add this to align navigation to the right */
+.navdiv ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .logout {
@@ -63,11 +66,13 @@ li a {
     border-radius: 10px;
     padding: 10px;
     width: 90px;
+    border: none; /* Remove button border */
 }
 
 .logout a {
     color: white;
     font-weight: bold;
+    text-decoration: none; /* Remove text decoration */
 }
 
 

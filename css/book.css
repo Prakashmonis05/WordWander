@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+/* Header Styles */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Book Details Styles */
+.book-detail-img {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.book-detail-img img {
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.book-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.book-author {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #6c757d;
+}
+
+.book-author span {
+    color: #0d6efd;
+}
+
+.book-rating {
+    margin-bottom: 1rem;
+}
+
+.book-rating .fa-star,
+.book-rating .fa-star-half-alt {
+    color: #ffc107;
+}
+
+.book-price {
+    margin-bottom: 1.5rem;
+}
+
+.current-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-right: 0.5rem;
+}
+
+.original-price {
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    color: #6c757d;
+    margin-right: 0.5rem;
+}
+
+.discount {
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: 500;
+}
+
+.book-description {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.book-description h5 {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.book-actions {
+    margin-bottom: 1.5rem;
+}
+
+.quantity-selector {
+    width: 100px;
+}
+
+/* Related Books Styles */
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #0d6efd;
+}
+
+.book-card {
+    margin-bottom: 2rem;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card-img {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.book-card-img img {
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.book-card-body {
+    padding: 0.5rem;
+}
+
+.book-card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    height: 2.8rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.book-card-author {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    height: 1.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.book-card-price .current-price {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.book-card-price .original-price {
+    font-size: 0.875rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+footer h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+    color: rgba(255,255,255,0.7);
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .book-title {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+    
+    .current-price {
+        font-size: 1.2rem;
+    }
+    
+    .original-price {
+        font-size: 1rem;
+    }
+    
+    .book-actions form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .book-actions button {
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    
+    .quantity-selector {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

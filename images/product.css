@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-details {
+    display: flex;
+    gap: 40px;
+}
+
+.book-cover img {
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.book-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.ratings {
+    font-size: 14px;
+    color: gray;
+}
+
+.price button {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.price button:hover {
+    background-color: #ddd;
+}
+
+.book-specs {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.book-specs div {
+    margin-bottom: 5px;
+    border: .5px solid aqua;
+    /* border-color: solid aqua; */
+    background-color: aliceblue;
+    /* border-width: 10px; */
+    border-radius: 8px;
+    width: 150px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-book {
+    margin-top: 40px;
+}
+
+.about-book h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-book p {
+    font-size: 16px;
+    color: #333;
+}
+
+.about-book a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-book a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.attractive-btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 15px 30px;
+    margin-top: 5px;
+    width: 240px;
+    /* display: block; */
+    /* margin: 0 auto; */
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect */
+.attractive-btn:hover {
+    background-color: #1e90ff;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.rating {
+    display: flex;
+    /* direction: rtl; Right to left, so highest rating comes first */
+}
+
+.star {
+    font-size: 25px;
+    color: #ccc;
+}
+
+/* Set default rating to 4 stars */
+.star:nth-child(-n+4) {
+    color: #ffcc00;
+}
+
+#rating-value {
+    /* margin-top: 20px; */
+    font-size: 15px;
+    color: #333;
+    margin: 6px;
+}
+
+
+
+
+
+
+
+
+.offer-container {
+    font-family: Arial, sans-serif;
+
+    padding: 20px;
+    width: 200px;
+}
+
+.festival-banner {
+    background-color: #d32f2f;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.discount {
+    color: #d32f2f;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    /* margin: 0; */
+}
+
+.discount,
+.price {
+    display: inline-block;
+    margin: 0 10PX;
+
+}
+
+.mrp {
+    font-size: 14px;
+    color: #666;
+    text-decoration: line-through;
+}
