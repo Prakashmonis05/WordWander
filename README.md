@@ -50,5 +50,5 @@ Refer to the LICENSE file for detailed terms.
 📫 Connect
 For inquiries, collaborations, or suggestions:
 📧 Email:prakashmonis06@gmail.com
-🔗 GitHub: https://github.com/your-username
+🔗 GitHub: https://github.com/prakashmonis05
 WordWander: Transforming e-commerce experiences for digital readers.
