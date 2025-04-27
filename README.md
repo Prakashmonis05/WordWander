@@ -20,7 +20,7 @@ It provides a seamless digital marketplace experience, built for scalability and
 
 ⚙️ Installation and Setup
 1. Clone the repository:
-git clone https://github.com/your-username/wordwander.git
+git clone https://github.com/prakashmonis05/wordwander.git
 2. Database Setup:
 - Import the provided `.sql` file into your MySQL server.
 - Update your `config.php` with appropriate database credentials.
