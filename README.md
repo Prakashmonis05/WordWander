@@ -22,7 +22,7 @@ It provides a seamless digital marketplace experience, built for scalability and
 1. Clone the repository:
 git clone https://github.com/prakashmonis05/wordwander.git
 2. Database Setup:
-- Import the provided `.sql` file into your MySQL server.
+- Import the provided `bookstore.sql` file into your MySQL server.
 - Update your `config.php` with appropriate database credentials.
 3. Configure your local server:
 - Place the project inside your `htdocs` folder (XAMPP/LAMP).
